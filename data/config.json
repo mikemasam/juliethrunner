@@ -1,0 +1,37 @@
+[
+  {
+    "every":"4 hours",
+    "at":[
+      "4:00",
+      "19:00"
+    ],
+    "tasks":[
+      "echo,123456789 >> test.tm"
+    ],
+    "id":"test1"
+
+  },
+  {
+    "every":"9 hours",
+    "at":[
+      "8:00"
+    ],
+    "tasks":[
+      "echo,0987"
+    ],
+    "id":"test2"
+
+  },
+
+  {
+    "every":"2 seconds",
+    "at":[
+      "8:00"
+    ],
+    "tasks":[
+      "every,second"
+    ],
+    "id":"test3"
+
+  }
+]
